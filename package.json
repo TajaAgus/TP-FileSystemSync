@@ -1,12 +1,14 @@
 {
   "name": "tp-filesystemsync",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Synchronous file system practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "watch": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Agustín Tajani",
+  "license": "MIT"
 }
