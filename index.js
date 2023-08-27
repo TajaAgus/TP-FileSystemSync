@@ -52,4 +52,3 @@ function transformarArrayDeNumerosAUnSoloString(array, separador){
     const resultString = array.join(separador)
     return resultString
 }
-console.log(transformarArrayDeNumerosAUnSoloString([1,2,3,64575,1],'----------'))
