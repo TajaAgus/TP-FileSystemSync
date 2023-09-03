@@ -24,7 +24,7 @@ function escribirTextoEnArchivo(ruta, texto, flag){
 
 function transformarStringEnArrayDeNumeros(texto, separador){
     let textoCortado = texto.split(separador)
-    let numeros = []
+    const numeros = []
 
     //V1
     /*
@@ -49,6 +49,13 @@ function transformarArrayDeNumerosAUnSoloString(array, separador){
     */
 
     //V2
-    const resultString = array.join(separador)
-    return resultString
+    return array.join(separador)
+}
+
+function combinarDosArrays(arr1, arr2){
+    return arr1.concat(arr2.filter((item) => arr1.indexOf(item) < 0)).sort()
+}
+
+function combinarNArrays(arr){
+    return arr.flat()
 }
